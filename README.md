@@ -1,10 +1,19 @@
 # trivia
 Trivia game.
+
+
+
 #### Done:
 - Yarn monorepo
 - Basic front-end
 - Mock-up data
 
+## Install
+    git clone https://github.com/majordo/trivia.git
+    cd trivia
+    yarn install
+    yarn start
+    
 ## Roadmap
 
 ### Front-end  
