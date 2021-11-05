@@ -8,8 +8,8 @@
     "packages/*"
   ],
   "scripts": {
-    "start:client": "yarn workspace client start",
-    "start:server": "yarn workspace server start",
+    "start:frontend": "yarn workspace frontend start",
+    "start:backend": "yarn workspace backend start",
     "start": "concurrently npm:start:*"
   },
   "dependencies": {
