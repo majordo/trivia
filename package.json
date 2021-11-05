@@ -1,0 +1,18 @@
+{
+  "name": "trustlayer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:client": "yarn workspace client start",
+    "start:server": "yarn workspace server start",
+    "start": "concurrently npm:start:*"
+  },
+  "dependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
