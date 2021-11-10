@@ -5,6 +5,8 @@ Trivia game.
     git clone https://github.com/majordo/trivia.git
     cd trivia
     docker-compose up -d
-    yarn install
-    yarn start
+
+    Open url [http://localhost:3000](http://localhost:3000). 
+
+
     

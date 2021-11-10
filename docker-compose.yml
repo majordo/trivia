@@ -5,3 +5,13 @@ services:
     container_name: "mongodb"
     ports:
       - 27017:27017
+  app:
+    build:
+      context: .
+    environment:
+      - DB_URI=mongodb://mongodb:27017/trivia
+    ports:
+      - 3000:3000
+      - 4000:4000
+    depends_on:
+      - mongodb

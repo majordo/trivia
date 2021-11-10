@@ -2,7 +2,7 @@ import mongoose, { Schema } from "mongoose";
 import moment from "moment";
 import bcrypt from "bcrypt";
 
-const DB_URI = "mongodb://localhost:27017/trivia";
+const DB_URI = process.env.DB_URI || "mongodb://localhost:27017/trivia";
 const dbConnection = mongoose.createConnection(DB_URI, {
   //   useFindAndModify: false,
   //   useNewUrlParser: true,

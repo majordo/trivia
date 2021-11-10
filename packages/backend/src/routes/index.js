@@ -124,7 +124,7 @@ export default function (app) {
   app.post("/check-response", async (req, res) => {
     try {
       const _data = triviaSession.get(req.cookies.trivia);
-      // console.log("Cookies: ", req.body, req.cookies.trivia, _data);
+      // console.log("Cookies: ", req.cookies.trivia);
       // console.log("check-response: ", _data);
       const { index, r } = req.body;
       // console.log(_data[index], r, _data[index].correct_answer === r);
