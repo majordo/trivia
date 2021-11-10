@@ -6,7 +6,7 @@ Trivia game.
     cd trivia
     docker-compose up -d
 
-    Open url [http://localhost:3000](http://localhost:3000). 
+Open url [http://localhost:3000](http://localhost:3000). 
 
 
     
